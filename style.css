@@ -1,0 +1,47 @@
+body {
+    height: 100vh;
+    margin: 0; 
+    padding: 0;
+}
+.center {
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+}
+.circle {
+    border-radius: 50%;
+    border: 2px dashed red;
+    overflow: visible;
+    position: absolute;
+    transition: all 1s;
+}
+.big {
+    height: 60vh;
+    width: 60vh;
+}
+.mid {
+    height: 40vh;
+    width: 40vh;
+}
+.small {
+    height: 20vh;
+    width: 20vh;
+}
+img {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    transition: all 1s;
+}
+.big .img1 {
+    top: -5%;
+    left: 45%;
+}
+.mid .img2{
+    top: 55%;
+    left: -4%;
+}
+.small .img3 {
+    bottom: -10%;
+    left: 45%;
+}
